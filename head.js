@@ -1,7 +1,7 @@
 // create a function 'head' which returns the first item in the array
-function head(arr) {
+const head = function(arr) {
   for (let i in arr) return arr[i];
-}
+};
 console.log(head(['a', 'b', 'c']));
 
 // use assertEqual to write test cases for various scenarios
